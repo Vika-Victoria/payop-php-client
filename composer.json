@@ -1,0 +1,21 @@
+{
+    "name": "Vika-Victori/payop-php-client",
+    "description": "Example client library.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "PayopClient\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^7.4"
+    },
+    "authors": [
+        {
+            "name": "Viktoria Batranak",
+            "email": "vik1126111@gmail.com"
+        }
+    ]
+}
